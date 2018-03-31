@@ -1,0 +1,9 @@
+Binary search is an algorithm implemented on a sorted array to search if a given element exists in that array.
+
+Given a sorted array the simplest way to look for an element is to go through the elements one by one to see if the element we are looking for exists in the array. However, this method has a performance of O(n) (n iterations in the worst case) when the element we are looking for is the last element or it does not exist in the array.
+
+Binary search has a performance of O(log n) and hence is definitely a better method to search in a sorted array. The aim of this code is not just to highlight why binary search is better. Binary search is a great algorithm to demonstrate how a solution can be implemented using either iteration or recursion.
+
+As the name suggests, the function 'iterbinarySearch' is the iterative solution and 'recurbinarySearch' is the recursive solution.
+
+Recursive solutions mostly slower than iterative solution because of cost of function stack implementation. However, the elegance of recursive solution in code is really appeasing in some scenarios. There is always exists an iterative counterpart for recursive implementation but in some scenarios the iterative solution is so convoluted that it is almost never attempted. Eg. Fibonacci
